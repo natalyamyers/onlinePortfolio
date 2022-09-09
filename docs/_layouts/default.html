@@ -10,5 +10,24 @@
   <body>
     {% include navigation.html %}
     {{ content }}
+     <footer>
+            <figure><a href="https://newtfire.org/courses/"><img src="images/newt-mosaic4.png"
+                alt="NewtFire logo: a mosaic rendering of a firebelly newt" /></a></figure>
+            <p>Visit <a href="https://github.com/newtfire/jekyllSetup"
+                >our JekyllSetup GitHub repository</a>, an extension of <a href="https://newtfire.org">newtFire</a>
+                <a href="https://newtfire.org/courses/">{dh}</a>.</p>
+            <div class="boilerplate">
+                <span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (eeb4 at psu.edu) <a
+                        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                            alt="Creative Commons License" style="border-width:0"
+                            src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
+                        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
+                    <strong>Last modified: </strong>{{ page.last_modified_at | date: '%B %d, %Y at %S: %R.' }}
+                    <!--2022-09-01 ebb: This page.last_modified_at only seems to wokr in local Jekyll site builds.. 
+                        Apparently last_modified_at has not been whitelisted by GitHub Pages so we need another solution. --> <a
+                        href="https://newtfire.org/firebellies.html">Powered by
+                    firebellies</a>.</span>
+            </div>
+        </footer>
   </body>
 </html>
