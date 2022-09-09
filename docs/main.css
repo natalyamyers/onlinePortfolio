@@ -41,5 +41,24 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  
 }
+  footer {
+    width: 100%;
+    background-color: #bad7e6 /*#D9E9D9*/;
+    padding: 5px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    font-size: smaller;
+}
+footer p {
+   text-align:left; 
+}
+footer figure {
+    float: left;
+}
+footer figure img {
+    width:5vw;
+    max-width: 150px;
+    margin-top: -1vw;
+}
+  
