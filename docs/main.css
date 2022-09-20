@@ -1,26 +1,32 @@
 body {
-  padding-left: 11em;
-  font-family: Georgia, "Times New Roman",
+    background-color: #7eadf7;
+    color: #031B3F;
+    font-family: Georgia, "Times New Roman",
         Times, serif;
-  color: black;
-  background-color: lightblue}
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em }
-p{
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif;
-  font-size: 25;
-  
+    padding: 2vw;
+    line-height: 1.3em;
 }
+nav {
+    margin-left:7vw;
+    font-weight:600;
+    font-size:1.3em;
+}
+
+p {
+    text-align: center;
+    font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+    font-size: 25;
+}
+
+img {
+    width: 150%;
+    max-width: 300px;
+}
+
 h1 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
+    text-align: center;
+}
 ul.navbar li {
   background: white;
   margin: 0.5em 0;
@@ -36,13 +42,7 @@ address {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-  footer {
+footer {
     width: 100%;
     background-color: #bad7e6 /*#D9E9D9*/;
     padding: 5px;
@@ -61,4 +61,4 @@ footer figure img {
     max-width: 150px;
     margin-top: -1vw;
 }
-  
+ 
